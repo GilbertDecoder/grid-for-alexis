@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ font-family:"Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+body{
+background-color: black;
+padding: 30px;
+}
+.wet{
+    color: white;
+font-size: 30px;
+}
+.dirt{
+    display: grid;
+    grid-template-columns: auto auto auto;
+justify-content: space-between;
+margin-top: 20px;
+
+}
+.content1{
+height: 70vh;
+margin-top: 30px;
+margin-right: 50px;
+}
+
+.img{
+    height: 70vh;
+    width: 100%;
+    margin: 10px;
+}
+
+.bord{
+    border: 1px solid white;
+    color: white;
+width: fit-content;
+padding: 8px;
+font-size: 9px;
+margin-left: 35%;
+}
+.bord:hover{
+    background-color: white;
+    color: black;
+cursor: pointer;}
+.met{
+    color: white;
+font-size: 30px;
+padding-top: 120px;
+}
+.tops{
+    position:relative;
+    top: -335px;
+   height: 70vh;
+   width: 100%;
+   text-align: center;
+   transition: all 1s 5ms;
+   margin-left: 10px;
+}
+.tops:hover{
+    background-color: rgba(156, 156, 156, 0.574);
+}
+.suga{
+    position: relative;
+
+    top: -188px;
+   height: 40vh;
+   width: 100%;
+   text-align: center;
+   transition: all 1s 5ms;
+}
+.suga:hover{
+background-color: rgba(156, 145, 145, 0.736);
+}
+.NAMJOON{
+
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.clock{
+    border: 1px solid white;
+    color: white;
+width: fit-content;
+padding: 8px;
+font-size: 9px;
+margin-left: 35%;
+}
+.clock:hover{
+    background-color: white;
+    color: black;
+cursor: pointer;}
+.look{
+   
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+
+}
+.rain{
+    position: relative;
+
+    top: -188px;
+   height: 40vh;
+   width: 100%;
+   text-align: center;
+   transition: all 1s 5ms;
+}
+.rain:hover{
+    background-color: rgba(156, 156, 156, 0.574);
+
+}
+.eat{
+    margin-top: 50%;
+    
+}
+.door{
+    color: white;
+    position: relative;
+    top: -188px;
+    height: 28vh;
+    width: 100%;
+    text-align: center;
+    transition: all 1s 5ms;
+padding-top: 20%;
+font-size: 30px;
+}
+.door:hover{
+    background-color: rgba(161, 154, 154, 0.66);
+}
+.dig{
+    font-size: 40%;
+    border: 1px solid white;
+    color: white;
+    width: fit-content;
+    padding: 8px;
+    font-size: 9px;
+margin-left: 35%;
+}
+.dig:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.rate{
+    color: rgb(255, 255, 255);
+margin-top: 50px;
+text-align: center;
+}
+
+
+
+        
+.rf{
+    color: rgb(23, 68, 204);
+    font-size: 20px;
+
+}
+
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: green;
+    }
+    .dirt{
+        grid-template-columns: auto;
+    }
+}
